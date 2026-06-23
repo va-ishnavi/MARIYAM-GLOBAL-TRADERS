@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariyam Global Traders</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+            <div class="flex justify-between items-center h-20">
+
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-3">
+
+                    <img src="images/navbar logo.png" class="h-16 w-auto hover:scale-110 transition duration-500"
+                        alt="Mariyam Global Traders">
+                </a>
+
+                <!-- Desktop Menu -->
+                <ul class="hidden lg:flex items-center gap-8 font-medium">
+
+                    <li>
+                        <a href="index.html" class="text-gray-800 hover:text-[#0f5f38] transition duration-300">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" class="text-gray-800 hover:text-[#0f5f38] transition duration-300">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="products.html" class="text-gray-800 hover:text-[#0f5f38] transition duration-300">
+                            Products
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="whyus.html" class="text-gray-800 hover:text-[#0f5f38] transition duration-300">
+                            Why Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="text-gray-800 hover:text-[#0f5f38] transition duration-300">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Button -->
+                <a href="tel:+91 7358002436 "
+                    class="hidden lg:block bg-[#0f5f38] hover:bg-[#064420] px-6 py-3 rounded-full text-white font-semibold transition duration-500">
+                    Get Quote
+                </a>
+
+
+                <!-- Mobile Toggle -->
+                <button id="menu-btn" class="lg:hidden text-[#0f5f38]">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+
+                    </svg>
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t shadow-xl">
+
+            <ul class="flex flex-col text-center py-5">
+
+                <li><a href="#home" class="block py-3 hover:bg-green-50">Home</a></li>
+                <li><a href="#about" class="block py-3 hover:bg-green-50">About</a></li>
+                <li><a href="#products" class="block py-3 hover:bg-green-50">Products</a></li>
+                <li><a href="#whyus" class="block py-3 hover:bg-green-50">Why Us</a></li>
+                <li><a href="#contact" class="block py-3 hover:bg-green-50">Contact</a></li>
+
+                <li class="mt-4">
+                    <a href="#contact" class="inline-block bg-[#0f5f38] text-white px-6 py-3 rounded-full">
+                        Get Quote
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+
+        <!-- Video Background -->
+        <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+
+            <source src="vidoes/hero vid.mp4" type="video/mp4">
+
+        </video>
+
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black/65"></div>
+
+        <!-- Floating Gradient -->
+        <div
+            class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-green-900/40 via-transparent to-yellow-500/20">
+        </div>
+
+        <!-- Content -->
+        <div class="relative z-10 text-center px-6 max-w-5xl">
+
+            <span
+                class="inline-block px-5 py-2 bg-yellow-500/20 border border-yellow-500 rounded-full text-yellow-300 text-sm md:text-base mb-6">
+                Premium Moringa & Agro Products Exporter
+            </span>
+
+            <h1 class="text-white text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
+
+                Delivering Nature's Best
+                <span class="text-yellow-400 block">
+                    To Global Markets
+                </span>
+
+            </h1>
+
+            <p class="text-gray-200 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-10">
+
+                Mariyam Global Traders is a trusted exporter of premium-quality
+                Moringa Products, Curry Leaves and Agricultural Commodities,
+                serving customers across UAE, USA, UK, Singapore and Malaysia.
+
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex flex-col sm:flex-row justify-center gap-5">
+
+                <a href="products.html"
+                    class="bg-yellow-500 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold transition duration-500 hover:scale-105">
+
+                    Explore Products
+
+                </a>
+
+                <a href="contact.html"
+                    class="border border-white hover:bg-white hover:text-black text-white px-8 py-4 rounded-full font-semibold transition duration-500">
+
+                    Contact Us
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Scroll Down -->
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+
+            </svg>
+
+        </div>
+
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="relative py-24 overflow-hidden">
+
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="images/abt bg.jpg" class="w-full h-full object-cover" alt="">
+            <div class="absolute inset-0 bg-gradient-to-r from-[#0f5f38]/90 to-[#064420]/80"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6 lg:px-12">
+
+            <!-- Section Heading -->
+            <div class="text-center mb-16">
+
+                <span
+                    class="inline-block px-5 py-2 bg-yellow-500/20 border border-yellow-400 rounded-full text-yellow-300 font-medium">
+                    About Mariyam Global Traders
+                </span>
+
+                <h2 class="text-4xl md:text-5xl font-bold text-white mt-6">
+                    Trusted Export Partner
+                </h2>
+
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+
+                <!-- Left Image -->
+                <div class="relative group">
+
+                    <div class="overflow-hidden rounded-3xl shadow-2xl">
+
+                        <img src="images/abt hero.jpg" alt="Mariyam Global Traders"
+                            class="w-full h-[500px] object-cover transition duration-700 group-hover:scale-110">
+
+                    </div>
+
+                    <!-- Experience Badge -->
+                    <div class="absolute bottom-6 left-6 bg-white p-5 rounded-2xl shadow-xl">
+
+                        <h3 class="text-3xl font-bold text-[#0f5f38]">
+                            100%
+                        </h3>
+
+                        <p class="text-gray-600 text-sm">
+                            Quality Assured
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Content -->
+                <div>
+
+                    <div
+                        class="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl p-8 lg:p-10 shadow-xl hover:-translate-y-2 transition duration-500">
+
+                        <h3 class="text-3xl font-bold text-white mb-6">
+
+                            Pure from Source.
+                            Trusted Worldwide.
+                        </h3>
+
+                        <p class="text-gray-200 leading-8 mb-5">
+
+                            Mariyam Global Traders is a Tamil Nadu-based export
+                            company committed to delivering premium-quality
+                            natural products with honesty, consistency,
+                            and global standards.
+
+                        </p>
+
+                        <p class="text-gray-200 leading-8 mb-5">
+
+                            Rooted in the rich agricultural heritage of South India,
+                            we specialize in Moringa Products, Curry Leaves and
+                            Agro-Based Products carefully sourced and processed
+                            to maintain freshness, purity and nutritional value.
+
+                        </p>
+
+                        <p class="text-gray-200 leading-8 mb-5">
+
+                            Our focus is not only on supplying products but on
+                            building long-term relationships through transparent
+                            communication, reliable service and professional
+                            export practices.
+
+                        </p>
+
+                        <p class="text-gray-200 leading-8">
+
+                            As we continue to grow, our vision is to become a
+                            trusted global partner in the natural and agro-based
+                            export industry.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Stats -->
+            <div class="grid md:grid-cols-4 gap-6 mt-20">
+
+                <div
+                    class="bg-white rounded-2xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-500">
+
+                    <h3 class="text-4xl font-bold text-[#0f5f38]">8+</h3>
+                    <p class="mt-2 text-gray-600">Premium Products</p>
+
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-500">
+
+                    <h3 class="text-4xl font-bold text-[#0f5f38]">5+</h3>
+                    <p class="mt-2 text-gray-600">Export Countries</p>
+
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-500">
+
+                    <h3 class="text-4xl font-bold text-[#0f5f38]">100%</h3>
+                    <p class="mt-2 text-gray-600">Quality Assured</p>
+
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-500">
+
+                    <h3 class="text-4xl font-bold text-[#0f5f38]">24/7</h3>
+                    <p class="mt-2 text-gray-600">Customer Support</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-24 bg-gradient-to-b from-white to-green-50">
+
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+
+            <!-- Heading -->
+            <div class="text-center mb-16">
+
+                <span class="inline-block px-5 py-2 bg-green-100 text-[#0f5f38] rounded-full font-medium">
+                    Our Product Range
+                </span>
+
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mt-5">
+                    Premium Moringa & Agro Products
+                </h2>
+
+                <p class="text-gray-600 max-w-3xl mx-auto mt-4">
+                    We supply premium-quality Moringa products and Curry Leaves,
+                    carefully sourced and processed to maintain freshness, purity,
+                    and nutritional value.
+                </p>
+
+            </div>
+
+            <!-- Product Cards -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Card 1 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/moringa-powder.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700"
+                            alt="Moringa Powder">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+
+                        <h3 class="text-xl font-bold text-gray-800">
+                            Moringa Powder
+                        </h3>
+
+                        <p class="text-gray-600 mt-3">
+                            Nutrient-rich powder made from premium Moringa leaves.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/moringa-dried-leaves.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Moringa Dried Cut Leaves</h3>
+                        <p class="text-gray-600 mt-3">
+                            Naturally dried leaves retaining freshness and nutrients.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/moringa-fresh-leaves.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Moringa Fresh Leaves</h3>
+                        <p class="text-gray-600 mt-3">
+                            Farm-fresh leaves sourced directly from trusted growers.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/moringa-seeds.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Moringa Seeds</h3>
+                        <p class="text-gray-600 mt-3">
+                            High-quality seeds for cultivation and oil extraction.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/moringa-tea.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Moringa Tea</h3>
+                        <p class="text-gray-600 mt-3">
+                            Refreshing herbal tea packed with natural goodness.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Card 6 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/moringa-oil.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Moringa Oil</h3>
+                        <p class="text-gray-600 mt-3">
+                            Pure oil widely used in wellness and skincare products.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Card 7 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/fresh-curry-leaves.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Fresh Curry Leaves</h3>
+                        <p class="text-gray-600 mt-3">
+                            Aromatic fresh curry leaves with rich natural flavor.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- Card 8 -->
+                <div
+                    class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-500">
+
+                    <div class="relative overflow-hidden">
+
+                        <img src="images/dried-curry-leaves.jpg"
+                            class="w-full h-64 object-cover group-hover:scale-110 transition duration-700" alt="">
+
+                        <div
+                            class="absolute inset-0 bg-[#0f5f38]/70 opacity-0 group-hover:opacity-100 transition duration-500 flex items-center justify-center">
+
+                            <a href="products.html"
+                                class="bg-white text-[#0f5f38] px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">Dried Curry Leaves</h3>
+                        <p class="text-gray-600 mt-3">
+                            Carefully dried leaves preserving aroma and quality.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="whyus" class="py-24 bg-gradient-to-b from-yellow-50 to-green-50">
+
+        <div class="max-w-7xl mx-auto px-6 lg:px-12">
+
+            <!-- Heading -->
+            <div class="text-center max-w-4xl mx-auto">
+
+                <span class="inline-block px-5 py-2 rounded-full bg-green-100 text-[#0f5f38] font-semibold">
+                    Why Choose Mariyam Global Traders
+                </span>
+
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mt-6">
+                    Delivering Quality, Trust & Global Excellence
+                </h2>
+
+                <p class="mt-6 text-gray-600 leading-8">
+                    At Mariyam Global Traders, we are committed to providing premium-quality
+                    Moringa products, Curry Leaves, and agro-based commodities to customers
+                    worldwide. Our focus on quality, transparency, and customer satisfaction
+                    makes us a trusted export partner for businesses across international markets.
+                </p>
+
+            </div>
+
+            <!-- Cards -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+
+                <!-- Card 1 -->
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition duration-500 border border-transparent hover:border-green-500">
+
+                    <div
+                        class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-3xl group-hover:bg-[#0f5f38] transition duration-500">
+                        🌿
+                    </div>
+
+                    <h3 class="text-2xl font-bold mt-6 text-gray-800">
+                        Premium Quality Products
+                    </h3>
+
+                    <p class="mt-4 text-gray-600 leading-7">
+                        We source our products from trusted farms and ensure strict quality
+                        control at every stage to deliver fresh, pure, and nutrient-rich products.
+                    </p>
+
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition duration-500 border border-transparent hover:border-green-500">
+
+                    <div
+                        class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-3xl group-hover:bg-[#0f5f38] transition duration-500">
+                        🏆
+                    </div>
+
+                    <h3 class="text-2xl font-bold mt-6 text-gray-800">
+                        Trusted Export Expertise
+                    </h3>
+
+                    <p class="mt-4 text-gray-600 leading-7">
+                        Our professional export practices ensure smooth international
+                        transactions, documentation, packaging, and timely deliveries.
+                    </p>
+
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition duration-500 border border-transparent hover:border-green-500">
+
+                    <div
+                        class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-3xl group-hover:bg-[#0f5f38] transition duration-500">
+                        🌎
+                    </div>
+
+                    <h3 class="text-2xl font-bold mt-6 text-gray-800">
+                        Global Market Reach
+                    </h3>
+
+                    <p class="mt-4 text-gray-600 leading-7">
+                        We proudly serve clients across UAE, USA, UK, Singapore, and Malaysia,
+                        building long-term relationships through reliable service.
+                    </p>
+
+                </div>
+
+                <!-- Card 4 -->
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition duration-500 border border-transparent hover:border-green-500">
+
+                    <div
+                        class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-3xl group-hover:bg-[#0f5f38] transition duration-500">
+                        📦
+                    </div>
+
+                    <h3 class="text-2xl font-bold mt-6 text-gray-800">
+                        Export Grade Packaging
+                    </h3>
+
+                    <p class="mt-4 text-gray-600 leading-7">
+                        We use secure and hygienic packaging solutions designed to preserve
+                        freshness, aroma, and product quality during transportation.
+                    </p>
+
+                </div>
+
+                <!-- Card 5 -->
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition duration-500 border border-transparent hover:border-green-500">
+
+                    <div
+                        class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-3xl group-hover:bg-[#0f5f38] transition duration-500">
+                        🤝
+                    </div>
+
+                    <h3 class="text-2xl font-bold mt-6 text-gray-800">
+                        Customer First Approach
+                    </h3>
+
+                    <p class="mt-4 text-gray-600 leading-7">
+                        We prioritize customer satisfaction through transparent communication,
+                        personalized support, and dependable service at every stage.
+                    </p>
+
+                </div>
+
+                <!-- Card 6 -->
+                <div
+                    class="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-3 transition duration-500 border border-transparent hover:border-green-500">
+
+                    <div
+                        class="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center text-3xl group-hover:bg-[#0f5f38] transition duration-500">
+                        🚚
+                    </div>
+
+                    <h3 class="text-2xl font-bold mt-6 text-gray-800">
+                        Timely Global Delivery
+                    </h3>
+
+                    <p class="mt-4 text-gray-600 leading-7">
+                        Our efficient logistics network helps us deliver products safely
+                        and on time, ensuring reliability for international buyers.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="mt-20">
+
+                <div
+                    class="bg-gradient-to-r from-[#0f5f38] to-[#064420] rounded-3xl p-10 md:p-14 text-center text-white shadow-2xl">
+
+                    <h3 class="text-3xl md:text-4xl font-bold">
+                        Ready to Partner With Us?
+                    </h3>
+
+                    <p class="mt-5 max-w-3xl mx-auto text-green-100 leading-8">
+                        Discover premium Moringa products, Curry Leaves, and agro-based
+                        commodities sourced from India and delivered to global markets
+                        with quality assurance and professional export support.
+                    </p>
+
+                    <a href="contact.html"
+                        class="inline-block mt-8 bg-yellow-500 hover:bg-yellow-400 text-white px-8 py-4 rounded-full font-semibold transition duration-500 hover:scale-105">
+
+                        Get a Free Quote
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="relative py-24 overflow-hidden">
+
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="images/contact-bg.jpg" alt="" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-black/70"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-6 lg:px-12">
+
+            <!-- Heading -->
+            <div class="text-center mb-16">
+
+                <span
+                    class="inline-block px-5 py-2 bg-yellow-500/20 border border-yellow-500 rounded-full text-yellow-300 font-medium">
+                    Contact Us
+                </span>
+
+                <h2 class="text-4xl md:text-5xl font-bold text-white mt-5">
+                    Let's Build Global Partnerships
+                </h2>
+
+                <p class="text-gray-300 mt-4 max-w-3xl mx-auto">
+                    Connect with us for premium Moringa products, Curry Leaves,
+                    and agro-based export opportunities.
+                </p>
+
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10">
+
+                <!-- Company Details -->
+                <div
+                    class="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl p-8 shadow-2xl hover:-translate-y-2 transition duration-500">
+
+                    <h3 class="text-3xl font-bold text-white mb-8">
+                        Contact Information
+                    </h3>
+
+                    <div class="space-y-6">
+
+                        <div class="flex gap-4 items-start">
+                            <div class="bg-yellow-500 p-4 rounded-xl text-white text-xl">
+                                📍
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white">Address</h4>
+                                <p class="text-gray-300">
+                                    No -24 Mariyapuram,
+                                    Kovai Mettupalayam Road,
+                                    Karamadai, Coimbatore,
+                                    Tamil Nadu - 641104, India
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-center">
+                            <div class="bg-yellow-500 p-4 rounded-xl text-white text-xl">
+                                📞
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white">Phone</h4>
+                                <a href="tel:+917358002436" class="text-gray-300 hover:text-yellow-400 block">
+                                    +91 7358002436
+                                </a>
+                                <a href="tel:+919500247883" class="text-gray-300 hover:text-yellow-400 block">
+                                    +91 9500247883
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4 items-center">
+                            <div class="bg-yellow-500 p-4 rounded-xl text-white text-xl">
+                                ✉️
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white">Email</h4>
+                                <a href="mailto:info@mariyamglobaltraders.com"
+                                    class="text-gray-300 hover:text-yellow-400">
+                                    info@mariyamglobaltraders.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- <div class="flex gap-4 items-center">
+                        <div class="bg-yellow-500 p-4 rounded-xl text-white text-xl">
+                            🌐
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-white">Website</h4>
+                            <a href="https://www.mariyamglobaltraders.com"
+                                class="text-gray-300 hover:text-yellow-400">
+                                www.mariyamglobaltraders.com
+                            </a>
+                        </div>
+                    </div>-->
+
+                        <div class="flex gap-4 items-center">
+                            <div class="bg-yellow-500 p-4 rounded-xl text-white text-xl">
+                                👤
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-white">Contact Person</h4>
+                                <p class="text-gray-300">
+                                    SHAJAHAN
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Contact Form -->
+                <div
+                    class="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl p-8 shadow-2xl hover:-translate-y-2 transition duration-500">
+
+                    <form class="space-y-5">
+
+                        <input type="text" placeholder="Your Name"
+                            class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-500"
+                            required>
+
+                        <input type="email" placeholder="Email Address"
+                            class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-500"
+                            required>
+
+                        <input type="tel" placeholder="Phone Number"
+                            class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-500"
+                            required>
+
+                        <input type="text" placeholder="Product Interested In"
+                            class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-500"
+                            required>
+
+                        <textarea rows="5" placeholder="Your Message"
+                            class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-gray-300 focus:outline-none focus:border-yellow-500"
+                            required></textarea>
+
+                        <button
+                            class="w-full bg-yellow-500 hover:bg-green-700 text-white font-semibold py-4 rounded-xl transition duration-500 hover:scale-105">
+                            Send Inquiry
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-green-50 text-green">
+
+        <div class="max-w-6xl mx-auto px-6 py-16 text-center">
+
+            <!-- Logo -->
+            <img src="images/navbar logo.png" alt="Mariyam Global Traders"
+                class="h-24 mx-auto mb-5 hover:scale-105 transition duration-500">
+
+
+            <!-- Navigation -->
+            <div class="flex flex-wrap justify-center gap-8 mt-10">
+
+                <a href="index.html" class="hover:text-yellow-400 transition">
+                    Home
+                </a>
+
+                <a href="about.html" class="hover:text-yellow-400 transition">
+                    About
+                </a>
+
+                <a href="products.html" class="hover:text-yellow-400 transition">
+                    Products
+                </a>
+
+                <a href="whyus.html" class="hover:text-yellow-400 transition">
+                    Why Us
+                </a>
+
+                <a href="contact.html" class="hover:text-yellow-400 transition">
+                    Contact
+                </a>
+
+            </div>
+
+            <!-- Contact -->
+            <div class="mt-10 space-y-3 text-black-100">
+
+                <p>
+                    <a class="hover:text-yellow-500" href="tel:+91 7358002436 | +91 9500247883">
+                        📞 +91 7358002436 | +91 9500247883
+                    </a>
+                </p>
+
+                <p>
+                    <a class="hover:text-yellow-500" href="mail:info@mariyamglobaltraders.com">
+                        ✉️ info@mariyamglobaltraders.com
+                    </a>
+                </p>
+
+                <p>
+                    📍 No-24 Mariyapuram, Karamadai,
+                    Coimbatore, Tamil Nadu - 641104
+                </p>
+
+            </div>
+
+            <!-- Buttons -->
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+
+                <a href="https://wa.me/917358002436"
+                    class="bg-[#0f5f38] px-6 py-3 rounded-full hover:scale-105 transition">
+                    WhatsApp Us
+                </a>
+
+                <a href="mailto:info@mariyamglobaltraders.com"
+                    class="bg-[#d4a017] px-6 py-3 rounded-full hover:scale-105 transition">
+                    Email Us
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="border-t border-green-700">
+
+            <div class="max-w-6xl mx-auto px-6 py-4 text-center text-sm text-black-200">
+
+                © 2026 Mariyam Global Traders. All Rights Reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
